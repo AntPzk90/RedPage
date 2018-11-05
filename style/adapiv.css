@@ -1,0 +1,273 @@
+@media only screen and (max-width:768px){
+	.menu-adaptiv-a{
+	display: block;
+	font-family: "Roboto", serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 24px;
+	line-height: 32px;
+	padding: 20px;
+	margin: 6px;
+	text-transform: uppercase;
+	width: 100%;
+	margin-left: -30px;
+	background-color: #c0301c;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #fff;
+	}
+	.container{
+	max-width: 768px;
+	min-width: 300px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	.header{
+	min-height: 580px;
+	width: 100%;
+	background-image: url("../img/Home Background.png");
+	background-size: cover;
+	background-position:50%;
+	text-align: center;
+	padding-bottom: 45px;
+	}
+	.nav-moby{
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+	}
+	.logo{
+		display: none;
+	}
+	.nav{
+		display: none;
+	}
+	.nav-menu-moby{
+	display: flex;
+	flex-direction:column;
+	min-width: 100%;
+	margin-left: -60px;
+	margin-top: -0px;
+	margin-bottom: 0px;
+	}
+	.nav-menu-moby li{
+	width: 100%;
+	list-style: none;
+	padding-left: 0px;
+	padding-right: 20px;
+	background-color: #c0301c;
+	border-bottom: 1px solid #777;
+	display: none;
+	}
+	.nav-menu-moby li a{
+	display: block;
+	width: 100%;
+	font-family: "Motserrat", serif;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	}
+	.moby-menu-decor{
+		display: inline-block;
+		width:30px;
+		height: 4px;
+		background-color: #fff; 
+		margin-left: 20px;
+		margin-bottom: 7px;
+		position: relative;
+	}
+	.moby-menu-decor:after{
+		content: "";
+		display: inline-block;
+		width:30px;
+		height: 4px;
+		background-color: #fff; 
+		position: absolute;
+		bottom: 8px;
+		left: 0px;
+	}
+	.moby-menu-decor:before{
+		content: "";
+		display: inline-block;
+		width:30px;
+		height: 4px;
+		background-color: #fff; 
+		position: absolute;
+		top: 8px;
+		left: 0px;
+	}
+	.services{
+	text-align: center;
+	min-height: 580px;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	}
+
+	.serv-content{
+	display: flex;
+	flex-direction:column;
+	
+
+	}
+	.serv-content-item{
+		margin: 0 auto;
+	}
+
+	.for-us {
+	text-align: center;
+	min-height: 800px;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background-color: #f8f8f8;
+	}
+	.for-us-dscr{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content:center;
+	flex-wrap: wrap;
+	margin-bottom: 75px;
+	}
+	.for-us-dscr-item{
+		margin: 0 auto;
+	}
+	.photo-galery{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	position: relative;
+	max-width: 250px;
+	margin: 0 auto;
+	overflow-x: hidden;
+	margin: 0 auto;
+	}
+	.galery-item{
+		
+	}
+	.works{
+	text-align: center;
+	min-height: 1200px;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	}
+
+	.works-filter{
+	display: flex;
+	flex-direction:column;
+	margin-bottom: 20px;
+	display: none;
+	}
+
+	.touch{
+	max-width: 768px;
+	min-height: 260px;
+	text-align: center;
+	background-image: url("../img/backgroundcofe.png"),
+					  url("../img/backgroundcofered.png")		;
+	background-size: cover;
+	background-position: 50%;
+	background-color: rgba(248,29,11,0.5);
+	}
+	.touch-wrapper{
+	box-sizing: border-box;
+	padding-top: 45px;
+	width: 100%;
+	min-height: 260px;
+	background-color: rgba(248,29,11,0.5);
+	
+	background-size: cover;
+	background-position: 50%;
+
+	}
+	.touch-txt{
+	font-family: "Roboto", serif;
+	font-size: 24px;
+	line-height: 44px;
+	color: #fff;
+	}
+
+	.blog{
+	text-align: center;
+	min-height: 800px;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 27px;
+	padding-left: 10px;
+	}
+
+	.blog-item{
+	max-width: 1150px;
+	display: flex;
+	flex-direction:column;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-bottom: 2px solid #eee;
+	}
+	.blog-item img{
+		margin-bottom: 18px;
+	}
+
+	.our-partners{
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background-color: #f8f8f8;
+	text-align: center;
+	}
+	.partners-logo{
+	max-width: 740px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	}
+	.partners-logo img{
+	display: block;
+	margin: 12px auto;
+	vertical-align: top;
+	max-width: 100%;
+	}
+	.contacts{
+	box-sizing: border-box;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	text-align: center;
+	}
+	.contacts-wrapper{
+	display: flex;
+	flex-direction:column;
+	}
+	.our-corditane{
+	display: flex;
+	flex-direction:column;
+	margin: 0 auto;
+	}
+
+	textarea{
+	width: 310px;
+	padding: 10px 20px;
+	}
+	.submit-form{
+	width: 350px;
+	margin: 0 auto;
+	}
+	.form-btn{
+		padding: 0px 10px;
+		height: 40px;
+		margin-right: 20px;
+	}
+
+	.show{
+		display: block;
+	}
+	.off{
+		display: none;
+	}
+}
